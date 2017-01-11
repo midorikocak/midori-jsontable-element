@@ -1,0 +1,20 @@
+{
+    "name": "midori-jsontable-element",
+    "version": "1.0.1",
+    "description": "Web component that generates plain HTML tables from json sources.",
+    "authors": [
+        "MyNameismidor.com"
+    ],
+    "license": "MIT",
+    "main": "midori-jsontable.html",
+    "keywords": [
+        "web-components"
+    ],
+    "ignore": [
+        "**/.*",
+        "bower_components"
+    ],
+    "dependencies": {
+        "webcomponentsjs": "^0.7.0"
+    }
+}
