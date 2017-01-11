@@ -4,10 +4,6 @@
 
 ![Screenshot](https://raw.githubusercontent.com/midorikocak/midori-jsontable-element/master/screenshot.png)
 
-## Demo
-
-[Check it live!](http://webcomponents.github.io/hello-world-element)
-
 ## Install
 
 Install the component using [Bower](http://bower.io/):
