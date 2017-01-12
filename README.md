@@ -2,9 +2,7 @@
 
 > Web component that generates plain HTML tables from json sources. [VanillaJS](http://vanilla-js.com/).
 
-## Demo
-
-[Check it live!](http://webcomponents.github.io/hello-world-element)
+![Screenshot](https://raw.githubusercontent.com/midorikocak/midori-jsontable-element/master/screenshot.png)
 
 ## Install
 
