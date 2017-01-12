@@ -22,15 +22,13 @@
 
         // Fires when an instance of the element is created
         MyElementProto.createdCallback = function() {
-            // Creates the shadow root
-            var shadowRoot = this.createShadowRoot();
 
             // Adds a template clone into shadow root
             var clone = thatDoc.importNode(template, true);
-            shadowRoot.appendChild(clone);
+            this.appendChild(clone);
 
             // Caches <strong> DOM query
-            this.table = shadowRoot.querySelector('table');
+            this.table = thatDoc.querySelector('table');
 
             // Checks if the "who" attribute has been overwritten
             if (this.hasAttribute('href')) {
